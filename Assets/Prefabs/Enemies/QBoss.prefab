@@ -373,22 +373,23 @@ MonoBehaviour:
   chasingspeed: 5
   normalspeed: 1
   Player: {fileID: 0}
-  distanceToChase: 20
-  distanceToLose: 1
-  distanceToStop: 2
+  distanceToChase: 2
+  distanceToLose: 30
+  distanceToStop: 1.7
   agent: {fileID: 1875497609855648425}
   keepChasingTime: 0
   wasShot: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkFromCenter: 2
   bullet: {fileID: 2457272435043879837, guid: 2305acf7e45a24b1892a3620d50d8857, type: 3}
-  firePoint1: {fileID: 2157373268012325843}
-  firePoint2: {fileID: 6210435426143452616}
-  firePoint3: {fileID: 7430629709527556364}
-  firePoint4: {fileID: 3621213044178368406}
-  firePoint5: {fileID: 9142386498692460504}
-  firePoint6: {fileID: 835339973433089282}
-  firePoint7: {fileID: 2156484735462625282}
+  firePoints:
+  - {fileID: 2157373268012325843}
+  - {fileID: 6210435426143452616}
+  - {fileID: 7430629709527556364}
+  - {fileID: 3621213044178368406}
+  - {fileID: 9142386498692460504}
+  - {fileID: 835339973433089282}
+  - {fileID: 2156484735462625282}
   fireRate: 0
   waitBetweenShots: 2
   timeToShoot: 3
