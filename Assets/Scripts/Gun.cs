@@ -10,7 +10,7 @@ public class Gun : MonoBehaviour
     [HideInInspector]
     public float fireCounter = 0f;
 
-    public int currentAmmo, pickupAmount;
+    //public int currentAmmo, pickupAmount;
 
     public Transform firepoint;
 
@@ -24,10 +24,10 @@ public class Gun : MonoBehaviour
         }
     }
 
-    public void GetAmmo()
-    {
-        currentAmmo += pickupAmount;
+    //public void GetAmmo()
+    //{
+        //currentAmmo += pickupAmount;
 
-        UIController.instance.ammoText.text = "AMMO: " + currentAmmo;
-    }
+        //UIController.instance.ammoText.text = "AMMO: " + currentAmmo;
+    //}
 }

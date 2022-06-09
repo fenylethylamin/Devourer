@@ -174,14 +174,14 @@ public class PlayerController : MonoBehaviour
     public void FireShot()
 
     {
-        if (activeGun.currentAmmo > 0)
-        {
-            activeGun.currentAmmo--;
+        //if (activeGun.currentAmmo > 0)
+        //{
+            //activeGun.currentAmmo--;
             Instantiate(activeGun.bullet, firePoint.position, firePoint.rotation);
             activeGun.fireCounter = activeGun.fireRate;
 
-            UIController.instance.ammoText.text = "AMMO: " + activeGun.currentAmmo;
-        }
+            //UIController.instance.ammoText.text = "AMMO: " + activeGun.currentAmmo;
+        //}
 
     }
 
@@ -203,7 +203,7 @@ public class PlayerController : MonoBehaviour
         activeGun = allGuns[currentGun];
         activeGun.gameObject.SetActive(true);
 
-        UIController.instance.ammoText.text = "AMMO: " + activeGun.currentAmmo;
+        //UIController.instance.ammoText.text = "AMMO: " + activeGun.currentAmmo;
 
         firePoint.position = activeGun.firepoint.position;
     }
