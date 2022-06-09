@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/Weapons/PGunHolder.mat.meta
+guid: 7d706fe0c399f4ed794aef0c447ce24e
+========
+guid: ed764396cc2f158439ea459d01ce2994
+>>>>>>>> 3f85ec790f396b15a07a29d9fc396823bc5903d9:Assets/Prefabs/VideoTexture.renderTexture.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
