@@ -137,6 +137,13 @@ public class GameManager : MonoBehaviour
         SetGameState(GameState.DialogueMode);
     }
 
+    public void EndConversation()
+    {
+        SetCursor(false);
+        locker = false;
+        SetGameState(GameState.WalkMode);
+    }
+
     public void ShowPuzzle()
     {
         SetCursor(true);
@@ -272,10 +279,10 @@ public class GameManager : MonoBehaviour
         _gunCrosshair.SetActive(true);
     }
 
-    private void OnGUI()
-    {
-       GUI.Label(new Rect(50, 50, 200, 50), locker.ToString());
-    }
+    //private void OnGUI()
+    //{
+      // GUI.Label(new Rect(50, 50, 200, 50), locker.ToString());
+    //}
 }
 
 

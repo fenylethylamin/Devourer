@@ -196,10 +196,7 @@ public class EnemyController : MonoBehaviour
     {
         chasing = false;
         wasShot = false;
-        float randomZ = Random.Range(-walkFromCenter, walkFromCenter) + enemyPosition.z;
-        float randomX = Random.Range(-walkFromCenter, walkFromCenter) + +enemyPosition.x;
-
-        walkPoint = new Vector3(randomX, transform.position.y, randomZ);
+        transform.Translate(-Vector3.right * normalspeed * Time.deltaTime);
 
     }
 
