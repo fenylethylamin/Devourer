@@ -44,6 +44,7 @@ public class Puzzle : MonoBehaviour
     {
         _completePuzzleAnimation.SetTrigger("solve");
         _puzzle.gameObject.SetActive(false);
+        GameManager.instance.EnablePuzzleExitUI(false);
     }
 
     public void AddLetterToPuzzleGenerator(char letter)
