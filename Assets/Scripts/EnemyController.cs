@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour
     {
         startPoint = transform.position;
         enemyPosition = transform.position;
-        Patrolling();
+        //Patrolling();
         agent.speed = normalspeed;
 
         shootTimeCounter = timeToShoot;
@@ -71,7 +71,7 @@ public class EnemyController : MonoBehaviour
                 if (timer > 2f)
                 {
                     timer = 0;
-                    Patrolling();
+                    //Patrolling();
                 }
             }
         }
@@ -92,7 +92,7 @@ public class EnemyController : MonoBehaviour
                 if (timer > 2f)
                 {
                     timer = 0;
-                    Patrolling();
+                    //Patrolling();
                 }
             }
 
@@ -180,17 +180,28 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void Patrolling()
+    //private void Patrolling()
+
+    //{
+
+        //float randomZ = Random.Range(-walkFromCenter, walkFromCenter) + enemyPosition.z;
+        //float randomX = Random.Range(-walkFromCenter, walkFromCenter) + +enemyPosition.x;
+
+        //walkPoint = new Vector3(randomX, transform.position.y, randomZ);
+
+    //}
+
+    public void MoveAside()
 
     {
-
+        chasing = false;
+        wasShot = false;
         float randomZ = Random.Range(-walkFromCenter, walkFromCenter) + enemyPosition.z;
         float randomX = Random.Range(-walkFromCenter, walkFromCenter) + +enemyPosition.x;
 
         walkPoint = new Vector3(randomX, transform.position.y, randomZ);
 
     }
-
 
     public void GetShot()
     {
