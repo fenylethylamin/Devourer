@@ -123,12 +123,18 @@ public class GameManager : MonoBehaviour
 
         else
         {
-            Debug.Log("here first");
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             _crosshairObject.SetActive(true);
         }
 
+    }
+
+    public void StartConversation()
+    {
+        SetCursor(true);
+        locker = true;
+        SetGameState(GameState.DialogueMode);
     }
 
     public void ShowPuzzle()
@@ -190,6 +196,7 @@ public class GameManager : MonoBehaviour
     }
 
     private GameObject activatedPuzzle;
+
     private void ActivateCurrentPuzzle()
     {
         for (int i = 0; i < _puzzles.Length; i++)
@@ -225,7 +232,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(waitAfterDeathScreen);
 
-        ES3AutoSaveMgr.Current.Load();
+
 
         _deathScreen.SetActive(false);
 
@@ -265,10 +272,10 @@ public class GameManager : MonoBehaviour
         _gunCrosshair.SetActive(true);
     }
 
-    //private void OnGUI()
-    //{
-       // GUI.Label(new Rect(50, 50, 200, 50), locker.ToString());
-    //}
+    private void OnGUI()
+    {
+       GUI.Label(new Rect(50, 50, 200, 50), locker.ToString());
+    }
 }
 
 
