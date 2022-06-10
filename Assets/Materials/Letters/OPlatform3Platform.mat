@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_3e42ffd549e342da8eb2571210100773:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6945c42c3d94d482f9231a4a1de827f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9b4243db7abf47238f7687f6a772025f:
@@ -91,6 +91,7 @@ Material:
     - AOC: 1
     - Vector1_1c08005efdb7499da00cdbb544193ad4: 0
     - Vector1_5d75a13b6f694aaa9f06dfe552424390: 1
+    - Vector1_81c0765a756245319583e796fa3819e3: 1
     - Vector1_ef5f2d42905a416290226f4143cf57be: 0
     - Vector1_f6682591d346491187641bfb444c114a: 0
     - _AlphaClip: 0
@@ -120,7 +121,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_81140760aa144f9fbccec90095951651: {r: 0.13915095, g: 0.22260746, b: 0.5, a: 0}
+    - Color_81140760aa144f9fbccec90095951651: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
