@@ -252,8 +252,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 55
+        x: 299.10406
+        y: 17.3172
         width: 160
         height: 30
     - id: 1
@@ -285,9 +285,11 @@ MonoBehaviour:
       - title: Sequence
         value: 'Camera(Closeup,speaker,1);
 
-          {{default}}
+          Delay({{end}})
 
-'
+          ;
+
+          AudioWait(Q_questioning-001)'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -311,8 +313,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 198.21573
-        y: 55
+        x: 295.0572
+        y: 95.55655
         width: 160
         height: 30
     - id: 2
@@ -343,9 +345,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-002)
         type: 0
         typeString: 
       conversationID: 2
@@ -369,8 +369,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 55
+        x: 292.35928
+        y: 160.82121
         width: 160
         height: 30
     - id: 3
@@ -402,9 +402,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-003)
         type: 0
         typeString: 
       conversationID: 2
@@ -428,8 +426,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 560
-        y: 56.78427
+        x: 288.3572
+        y: 219.67114
         width: 160
         height: 30
     - id: 4
@@ -460,9 +458,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-004)
         type: 0
         typeString: 
       conversationID: 2
@@ -486,8 +482,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 55
+        x: 285.6145
+        y: 296.94116
         width: 160
         height: 30
     - id: 5
@@ -518,9 +514,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-005)
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -548,8 +542,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 55
+        x: 285.6145
+        y: 346.94116
         width: 160
         height: 30
     - id: 6
@@ -579,9 +573,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-006)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -605,8 +597,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1100
-        y: 55
+        x: 285.6145
+        y: 396.94116
         width: 160
         height: 30
     - id: 7
@@ -636,9 +628,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-007)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -668,8 +658,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1280
-        y: 55
+        x: 285.6145
+        y: 446.94116
         width: 160
         height: 30
     - id: 8
@@ -725,8 +715,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1460
-        y: 28.215729
+        x: 150.61456
+        y: 496.94116
         width: 160
         height: 30
     - id: 9
@@ -782,8 +772,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1450.3013
-        y: 198.46046
+        x: 420.61475
+        y: 496.94116
         width: 160
         height: 30
     - id: 10
@@ -809,13 +799,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: What is the synonym of annihilation?
+        value: That was too easy. Now, tell me, what is the synonym of annihilation?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Camera(Closeup,speaker,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-008)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -845,8 +833,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1641.7843
-        y: 31.784286
+        x: 150.61456
+        y: 546.94116
         width: 160
         height: 30
     - id: 12
@@ -892,7 +880,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 12
         destinationConversationID: 2
-        destinationDialogueID: 18
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -902,8 +890,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1837.1735
-        y: 27.20552
+        x: 157.24744
+        y: 665.92267
         width: 160
         height: 30
     - id: 13
@@ -959,73 +947,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1808.0287
-        y: 178.76094
-        width: 160
-        height: 30
-    - id: 18
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 353ae9ed-dfed-4b8a-93f2-80212fc9583e
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: Variable["CorrectAnswer"] == false
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: 
-            m_MethodName: 
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-      canvasRect:
-        serializedVersion: 2
-        x: 2056.0989
-        y: 26.195343
+        x: 427.24762
+        y: 665.92267
         width: 160
         height: 30
     - id: 19
@@ -1056,7 +979,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: AudioWait(Q_questioning-009)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -1086,8 +1009,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1996.0098
-        y: 170.78021
+        x: 434.744
+        y: 795.3843
         width: 160
         height: 30
     - id: 20
@@ -1137,7 +1060,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 20
         destinationConversationID: 2
-        destinationDialogueID: 22
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1147,8 +1070,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2223.4377
-        y: 67.377075
+        x: 320.73364
+        y: 992.31323
         width: 160
         height: 30
     - id: 21
@@ -1204,61 +1127,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2216.3677
-        y: 168.89682
-        width: 160
-        height: 30
-    - id: 22
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 7ae21a7b-eb8a-4187-9f5c-b6933a74b6af
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: Variable["CorrectAnswer"] == false
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 2508.7622
-        y: 72.16447
+        x: 500.73395
+        y: 992.31323
         width: 160
         height: 30
     - id: 23
@@ -1289,9 +1159,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Camera(Closeup,QBoss,1);
-
-          {{default}}'
+        value: AudioWait(Q_questioning-010)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -1315,8 +1183,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2442.8357
-        y: 160.6292
+        x: 455.73386
+        y: 1042.3132
         width: 160
         height: 30
     - id: 24
@@ -1342,11 +1210,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: I have bad news and worse news for you. Your answer was wrong and
+          you will pay for your mistake with your life.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: AudioWait(Q_questioning_die)
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -1360,7 +1229,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 24
+        destinationConversationID: 2
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1368,8 +1243,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1452.5077
-        y: 309.89603
+        x: 1054.0079
+        y: 538.6696
         width: 160
         height: 30
     - id: 25
@@ -1421,13 +1296,66 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2442.8357
-        y: 251.66756
+        x: 458.66696
+        y: 1143.2887
+        width: 160
+        height: 30
+    - id: 26
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 462262e4-8364-42e4-a2d7-5e5de36b17c9
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1050.1323
+        y: 651.83765
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 310.4643, y: 0}
-    canvasZoom: 0.5604508
+    canvasScrollPosition: {x: 0, y: 376.318}
+    canvasZoom: 0.6669891
   - id: 3
     fields:
     - title: Title
@@ -1499,7 +1427,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Camera(IBoss Closeup,1);
+        value: 'Camera(IBossCloseup,, 1);
 
           Delay({{end}})'
         type: 0
@@ -1561,7 +1489,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(I_monologue-001)
+        value: "AudioWait(I_monologue-001);\x03"
         type: 0
         typeString: 
       conversationID: 3
@@ -1827,7 +1755,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.9823622
   - id: 4
     fields:
     - title: Title
