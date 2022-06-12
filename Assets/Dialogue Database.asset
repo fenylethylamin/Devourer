@@ -1354,8 +1354,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 376.318}
-    canvasZoom: 0.6669891
+    canvasScrollPosition: {x: 0, y: 180.33594}
+    canvasZoom: 0.50461334
   - id: 3
     fields:
     - title: Title
@@ -1883,7 +1883,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 001)
         type: 0
         typeString: 
       conversationID: 4
@@ -1938,7 +1938,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 002)
         type: 0
         typeString: 
       conversationID: 4
@@ -1994,7 +1994,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 003)
         type: 0
         typeString: 
       conversationID: 4
@@ -2050,7 +2050,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 004)
         type: 0
         typeString: 
       conversationID: 4
@@ -2106,7 +2106,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 005)
         type: 0
         typeString: 
       conversationID: 4
@@ -2162,7 +2162,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale 006)
         type: 0
         typeString: 
       conversationID: 4
@@ -2330,15 +2330,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Such a disappointment. You are still the same simple-minded beetle
+        value: Such a disappointment. You are still the same simple-minded beetle
           as you were at the beginning. And like any other vermin, you deserve to
           die.
-
-          [END]'
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response A2)
         type: 0
         typeString: 
       conversationID: 4
@@ -2348,7 +2346,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 9
+        destinationConversationID: 4
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -3416,6 +3420,59 @@ MonoBehaviour:
         serializedVersion: 2
         x: 921.0632
         y: 1099.6537
+        width: 160
+        height: 30
+    - id: 29
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 09a60913-f565-4503-8d91-b12a1d288798
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 9.041382
+        y: 511.64124
         width: 160
         height: 30
     entryGroups: []
