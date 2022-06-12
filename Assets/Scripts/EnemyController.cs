@@ -207,6 +207,14 @@ public class EnemyController : MonoBehaviour
         chasing = true;
 
     }
+
+    public void DoNotAttack()
+    {
+        wasShot = false;
+
+        chasing = false;
+
+    }
 }
 
 
