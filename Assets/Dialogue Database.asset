@@ -1656,13 +1656,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Because I am the only I there is. [END]
+        value: 'Because I am the only I there is. '
         type: 0
         typeString: 
       - title: Sequence
-        value: 'AudioWait(I_monologue-004);
-
-          Delay({{end}})'
+        value: AudioWait(I_monologue-004);
         type: 0
         typeString: 
       - title: EventGuid
