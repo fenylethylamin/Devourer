@@ -21,9 +21,18 @@ public class EmojiAIController : MonoBehaviour
     public Vector3 walkPoint;
     public float walkFromCenter = 2f;
     private float timer;
+    [SerializeField] private float spotLightIntensity = 30000f;
+    private Light spotLight;
 
     void Start()
     {
+        spotLight = GetComponentInChildren<Light>();
+        if (spotLight != null)
+        {
+            spotLight.lightmapBakeType = LightmapBakeType.Realtime;
+            spotLight.intensity = spotLightIntensity;
+        }
+           
         startPoint = transform.position;
         enemyPosition = transform.position;
         Patrolling();

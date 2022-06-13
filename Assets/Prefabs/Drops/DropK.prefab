@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 5979086016722431219}
   - component: {fileID: 191016588300175160}
   - component: {fileID: -3387047887212532073}
+  - component: {fileID: 4547290557078670165}
   m_Layer: 0
   m_Name: DropK
   m_TagString: Letter
@@ -203,6 +204,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.85631657, y: 0.6487071, z: 0.29999998}
   m_Center: {x: 0.0048918724, y: 0.3493525, z: 0}
+--- !u!114 &4547290557078670165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330299869746777382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890c10fcc61e8324dafed4b691a4f3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightIntensity: 1
+  lightPos: {x: 0, y: 0.381, z: 0.304}
+  innerSpotAngle: 96.3
+  outerSpotAngle: 102.87
 --- !u!1001 &3886052624385805877
 PrefabInstance:
   m_ObjectHideFlags: 0

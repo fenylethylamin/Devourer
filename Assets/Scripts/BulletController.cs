@@ -31,7 +31,7 @@ public class BulletController : MonoBehaviour
         var destroyBullet = false;
         if (other.gameObject.tag == "Enemy" && damageEnemy)
         {
-            other.gameObject.GetComponent<EnemyHealthController>().DamageEnemy(damage);
+            other.gameObject.GetComponent<EnemyHealthController>()?.DamageEnemy(damage);
             destroyBullet = true;
         }
         if (other.gameObject.tag == "BossEnemy" && damageEnemy)

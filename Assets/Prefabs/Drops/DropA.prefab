@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 235885979570587709}
   - component: {fileID: 7814755594319161666}
   - component: {fileID: -897417569169286266}
+  - component: {fileID: 6605554758163100688}
   m_Layer: 8
   m_Name: DropA
   m_TagString: Untagged
@@ -77,6 +78,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _letter: 65
+--- !u!114 &6605554758163100688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145142589784393042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890c10fcc61e8324dafed4b691a4f3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightIntensity: 2
+  lightPos: {x: 0, y: 0.381, z: 0.304}
+  innerSpotAngle: 96.3
+  outerSpotAngle: 102.87
+  range: 1
 --- !u!1 &7198134303605428943
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,7 +120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7198134303605428943}
   m_LocalRotation: {x: 0.6111318, y: -0.79130095, z: 0.012765644, w: 0.014067141}
-  m_LocalPosition: {x: 0.038, y: 0.539, z: 4.901}
+  m_LocalPosition: {x: 0, y: 0.381, z: 0.304}
   m_LocalScale: {x: 0.49999958, y: 0.5, z: 0.49999967}
   m_Children: []
   m_Father: {fileID: 6809544526249317944}
@@ -120,10 +138,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 12.228348
-  m_InnerSpotAngle: 4.03043
+  m_Intensity: 2
+  m_Range: 1
+  m_SpotAngle: 96.306885
+  m_InnerSpotAngle: 96.306885
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -165,7 +183,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 3.4798641, z: 1e-45, w: 4.3894704e+37}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
