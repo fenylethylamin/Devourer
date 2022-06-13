@@ -22,7 +22,8 @@ public class Turret : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < rangeToTargetPlayer)
         {
-            gun.LookAt(PlayerController.instance.transform.position + new Vector3(0f, 1.2f, 0f));
+            if (gun != null)
+                gun.LookAt(PlayerController.instance.transform.position + new Vector3(0f, 0.6f, 0f));
 
             shotCounter -= Time.deltaTime;
 
@@ -32,6 +33,6 @@ public class Turret : MonoBehaviour
                 shotCounter = timeBetweenShots;
             }
         }
-        
+
     }
 }

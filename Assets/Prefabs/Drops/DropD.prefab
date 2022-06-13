@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5979086016722431219}
   - component: {fileID: 191016588300175160}
   - component: {fileID: -3387047887212532073}
+  - component: {fileID: 5945997197105422017}
   m_Layer: 0
   m_Name: DropD
   m_TagString: Letter
@@ -110,6 +111,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.76415443, y: 0.67061466, z: 0.29999998}
   m_Center: {x: -0.029735565, y: 0.3603063, z: 0}
+--- !u!114 &5945997197105422017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330299869746777382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890c10fcc61e8324dafed4b691a4f3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightIntensity: 1
+  lightPos: {x: 0, y: 0.381, z: 0.304}
+  innerSpotAngle: 96.3
+  outerSpotAngle: 102.87
 --- !u!1 &7523679953240843947
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +170,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 30000
   m_Range: 10
   m_SpotAngle: 12.228348
   m_InnerSpotAngle: 4.03043

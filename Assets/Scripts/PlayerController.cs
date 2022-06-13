@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
             }
 
             //check for the ground        
-            canJump = charCon.velocity.y <= 0 && Physics.OverlapSphere(groundCheckPoint.position, 0.35f, whatIsGround).Length > 0;
+            canJump = /*charCon.velocity.y <= 0 &&*/ Physics.OverlapSphere(groundCheckPoint.position, 0.5f, whatIsGround).Length > 0;
 
             //Handle Jumping
             if (Input.GetKeyDown(KeyCode.Space) || _canAutoJump)
