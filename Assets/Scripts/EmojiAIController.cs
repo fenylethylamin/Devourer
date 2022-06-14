@@ -29,7 +29,6 @@ public class EmojiAIController : MonoBehaviour
         spotLight = GetComponentInChildren<Light>();
         if (spotLight != null)
         {
-            spotLight.lightmapBakeType = LightmapBakeType.Realtime;
             spotLight.intensity = spotLightIntensity;
         }
            
