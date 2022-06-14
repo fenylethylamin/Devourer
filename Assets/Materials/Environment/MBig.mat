@@ -182,7 +182,7 @@ Material:
     m_Colors:
     - Color_4dbe7b86d16f4900af758af30948323b: {r: 0.254717, g: 0.11894803, b: 0.11894803, a: 0}
     - Color_6D39A626: {r: 1, g: 1, b: 1, a: 0}
-    - Color_81140760aa144f9fbccec90095951651: {r: 1, g: 1, b: 1, a: 0}
+    - Color_81140760aa144f9fbccec90095951651: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
     - Vector3_bc8b209477d34514b101b63125e8b2f0: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}

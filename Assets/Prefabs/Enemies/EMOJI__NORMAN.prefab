@@ -30,6 +30,7 @@ Transform:
   m_Children:
   - {fileID: 9168950408476275029}
   - {fileID: 3728918832855144402}
+  - {fileID: 9151077464248423622}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 59.506, z: 0}
@@ -53,7 +54,7 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 7768887202051262697}
---- !u!1 &5468619441784211826
+--- !u!1 &7146498780675793484
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,45 +62,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6884321838707845107}
-  - component: {fileID: 4263337503304394897}
+  - component: {fileID: 9151077464248423622}
+  - component: {fileID: 2886751652644006170}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6884321838707845107
+--- !u!4 &9151077464248423622
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5468619441784211826}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.04, y: 1.25, z: 10.26}
+  m_GameObject: {fileID: 7146498780675793484}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0.291, y: 1.2, z: 2.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 9168950408476275029}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!108 &4263337503304394897
+  m_Father: {fileID: 7768887202051262697}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &2886751652644006170
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5468619441784211826}
+  m_GameObject: {fileID: 7146498780675793484}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
-  m_Intensity: 2000
-  m_Range: 10
-  m_SpotAngle: 15.354472
-  m_InnerSpotAngle: 13.624195
+  m_Color: {r: 0.9528302, g: 0.68765575, b: 0.82217544, a: 1}
+  m_Intensity: 20
+  m_Range: 2.7044566
+  m_SpotAngle: 130.85141
+  m_InnerSpotAngle: 96.306885
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -130,18 +131,18 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 375
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 3.4798641, z: 1e-45, w: 4.3894704e+37}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
