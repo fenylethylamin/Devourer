@@ -47,26 +47,27 @@ public class GameManager : MonoBehaviour
     public Monologue Monologue { get => _monologue; }
 
     private int escNo = 0;
-    bool locker = false;
+    public bool locker = false;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseUnpause();
-           
-
-
         }
+
         if (locker == false)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
+         //   Debug.Log("INVISIBLE");
         }
         else
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+         //   Debug.Log("VISIBLE");
         }
     }
 
@@ -257,7 +258,7 @@ public class GameManager : MonoBehaviour
 
             Time.timeScale = 1f;
 
-            locker = true;
+            locker = false;
 
         }
         else
@@ -268,7 +269,7 @@ public class GameManager : MonoBehaviour
 
             Time.timeScale = 0f;
 
-            locker = false;
+            locker = true;
 
         }
     }
@@ -277,6 +278,7 @@ public class GameManager : MonoBehaviour
 
     {
         _gunCrosshair.SetActive(true);
+        locker = false;
     }
 
     //private void OnGUI()

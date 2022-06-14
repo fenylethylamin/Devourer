@@ -15,10 +15,25 @@ public class UIController : MonoBehaviour
 
     public GameObject pauseScreen;
 
+    [Header("Outro Video")]
+    [SerializeField] private GameObject outroVideoObject;
+    [SerializeField] private float videoLength = 46f;
+    [SerializeField] private GameObject skipButton;
+    [SerializeField] private GameObject[] objectsToDisable;
+    private UnityEngine.Video.VideoPlayer videoPlayer;
+    private float videoTimeElapsed = 0f;
+    private bool isVideoPlaying = false;
     private void Awake()
 {
     instance = this;
 }
+
+    private void Start()
+    {
+        videoPlayer = outroVideoObject.GetComponent<UnityEngine.Video.VideoPlayer>();
+        outroVideoObject.SetActive(false);
+        skipButton.SetActive(false);
+    }
 
     void Update()
     {
@@ -27,6 +42,34 @@ public class UIController : MonoBehaviour
             damageEffect.color = new Color(damageEffect.color.r, damageEffect.color.g, damageEffect.color.b, Mathf.MoveTowards(damageEffect.color.a, 0f, damageFadeSpeed * Time.deltaTime));
         }
 
+
+
+        if (isVideoPlaying)
+        {
+            videoTimeElapsed += Time.unscaledDeltaTime;
+
+            if (videoTimeElapsed >= videoLength)
+            {
+                pauseScreen.GetComponent<PauseScreen>().MainMenu();
+            }
+        }
+    }
+
+    public void PlayVideoOutro()
+    {
+        isVideoPlaying = true;
+        outroVideoObject.SetActive(true);
+        skipButton.SetActive(true);
+        
+        foreach(GameObject GO in objectsToDisable)
+        {
+            GO.SetActive(false);
+        }
+    }
+
+    public void SkipVideo()
+    {
+        videoTimeElapsed = videoLength;
     }
 
     public void ShowDamage()

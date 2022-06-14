@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     private PlayerInventory _playerInventory;
 
     public GameObject muzzleFlash;
+    public static bool watchingOutroVideo = false;
 
     void Start()
     {
@@ -51,6 +52,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (watchingOutroVideo)
+        {
+            return;
+        }
+        
+
+
         if (!UIController.instance.pauseScreen.activeInHierarchy)
 
         {
