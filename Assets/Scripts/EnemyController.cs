@@ -140,7 +140,7 @@ public class EnemyController : MonoBehaviour
                             //@ChochosanDev limit the fire angle while keeping it dynamic, no hardcoded fire points
                             foreach(Transform firePoint in firePoints)
                             {
-                                firePoint.LookAt(PlayerController.instance.transform.position + new Vector3(0f, 1.2f, 0f));
+                                firePoint.LookAt(PlayerController.instance.transform.position + new Vector3(0f, 0.6f, 0f));
                             }
 
                             //check the angle to the player

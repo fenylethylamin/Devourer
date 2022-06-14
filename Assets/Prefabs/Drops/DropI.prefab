@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _letter: 73
+  floatSpeed: 0.4
+  timeInOneDirection: 1
 --- !u!65 &-3387047887212532073
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144,6 +146,7 @@ MonoBehaviour:
   lightPos: {x: 0, y: 0.381, z: 0.304}
   innerSpotAngle: 96.3
   outerSpotAngle: 102.87
+  range: 1
 --- !u!1 &8361535522336492588
 GameObject:
   m_ObjectHideFlags: 0

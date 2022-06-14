@@ -78,6 +78,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _letter: 65
+  floatSpeed: 0.4
+  timeInOneDirection: 1
 --- !u!114 &6605554758163100688
 MonoBehaviour:
   m_ObjectHideFlags: 0

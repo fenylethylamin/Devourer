@@ -6,6 +6,11 @@ using UnityEngine;
 public class Letter : MonoBehaviour
 {
 	[SerializeField] private char _letter;
+	[SerializeField] private float floatSpeed = 0.4f;
+	[SerializeField] private float timeInOneDirection = 1f;
+
+	private float timeRemaining;
+	private bool isGoingUp = true;
 
 	public char GetLetter()
 	{
@@ -23,7 +28,23 @@ public class Letter : MonoBehaviour
 
     private void Update()
     {
-		transform.Rotate(Vector3.forward);
+		//transform.Rotate(Vector3.forward);
 
+		if(isGoingUp)
+        {
+			transform.position += transform.up * Time.deltaTime * floatSpeed;
+		}
+		else
+        {
+			transform.position += -transform.up * Time.deltaTime * floatSpeed;
+		}
+
+		timeRemaining -= Time.deltaTime;
+
+		if(timeRemaining <= 0f)
+        {
+			timeRemaining = timeInOneDirection;
+			isGoingUp = !isGoingUp;
+        }
     }
 }
