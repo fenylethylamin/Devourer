@@ -105,6 +105,9 @@ GameObject:
   - component: {fileID: 1990828689150556960}
   - component: {fileID: 4342648085678739434}
   - component: {fileID: -9189214140585336950}
+  - component: {fileID: -6182379139077558345}
+  - component: {fileID: -6507493249876349521}
+  - component: {fileID: 7058698081637653988}
   m_Layer: 0
   m_Name: DropP
   m_TagString: Untagged
@@ -154,7 +157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 084e0f26f71cb421b863d619e0cdce70, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -192,6 +195,50 @@ MonoBehaviour:
   lightPos: {x: 0, y: 0.381, z: 0.304}
   innerSpotAngle: 96.3
   outerSpotAngle: 102.87
+  range: 1
+--- !u!65 &-6182379139077558345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829618586426207807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5332642, y: 1.414689, z: 0.23228721}
+  m_Center: {x: 0.12690163, y: 0.34406728, z: 0.06614361}
+--- !u!114 &-6507493249876349521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829618586426207807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b885902f6c286c49bf9bf17c8dffb2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _letter: 80
+--- !u!114 &7058698081637653988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829618586426207807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890c10fcc61e8324dafed4b691a4f3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightIntensity: 1
+  lightPos: {x: 0, y: 0.381, z: 0.304}
+  innerSpotAngle: 96.3
+  outerSpotAngle: 102.87
+  range: 1
 --- !u!1001 &2526887560465353900
 PrefabInstance:
   m_ObjectHideFlags: 0
