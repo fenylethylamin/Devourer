@@ -205,7 +205,6 @@ public class EnemyController : MonoBehaviour
         wasShot = true;
 
         chasing = true;
-
     }
 
     public void DoNotAttack()

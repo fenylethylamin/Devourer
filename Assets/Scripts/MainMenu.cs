@@ -16,6 +16,11 @@ public class MainMenu : MonoBehaviour
     private float videoTimeElapsed = 0f;
     public string firstLevel;
     public GameObject continueButton;
+    public GameObject quitButton;
+    public GameObject gameTitle;
+    public GameObject startButton;
+    public GameObject skipButton;
+    
 
    void Start()
     {
@@ -33,6 +38,7 @@ public class MainMenu : MonoBehaviour
 
         introVideoObject.SetActive(false);
         videoTextureObject.SetActive(false);
+        skipButton.SetActive(false);
         videoPlayer = introVideoObject.GetComponent<UnityEngine.Video.VideoPlayer>();
 
     }
@@ -58,10 +64,20 @@ public class MainMenu : MonoBehaviour
     public void StartVideo()
     {
         introVideoObject.SetActive(true);
-        videoTextureObject.SetActive(true);
+        continueButton.SetActive(false);
+        quitButton.SetActive(false);
+        gameTitle.SetActive(false);
+        startButton.SetActive(false);
+        skipButton.SetActive(true);
+      //  videoTextureObject.SetActive(true);
 
         isVideoPlaying = true;
 
+    }
+
+    public void SkipVideo()
+    {
+        videoTimeElapsed = videoLength;
     }
 
     public void PlayGame()
@@ -71,7 +87,6 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetString("CurrentLevel", "");
 
         PlayerPrefs.SetString(firstLevel + "_cp", "");
-        
     }
 
     public void QuitGame()
