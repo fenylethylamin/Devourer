@@ -142,10 +142,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 9000
+  m_Intensity: 2000
   m_Range: 10
   m_SpotAngle: 11.241034
-  m_InnerSpotAngle: 10.754479
+  m_InnerSpotAngle: 11.241034
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -558,6 +558,7 @@ MonoBehaviour:
   wasShot: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkFromCenter: 6
+  spotLightIntensity: 30000
 --- !u!195 &557240742006725861
 NavMeshAgent:
   m_ObjectHideFlags: 0

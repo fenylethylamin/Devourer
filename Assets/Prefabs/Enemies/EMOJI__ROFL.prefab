@@ -150,7 +150,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2000
   m_Range: 10
   m_SpotAngle: 12.228348
   m_InnerSpotAngle: 4.0304294
@@ -375,6 +375,7 @@ MonoBehaviour:
   wasShot: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkFromCenter: 2
+  spotLightIntensity: 30000
 --- !u!1001 &4923447328880205790
 PrefabInstance:
   m_ObjectHideFlags: 0
