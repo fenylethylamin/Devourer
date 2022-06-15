@@ -15,8 +15,8 @@ public class SpawnObjectOnDeath : MonoBehaviour
         Vector3 position = transform.GetChild(0).position;
         for (int i = 0; i < _objectToSpawn.Length; i++)
         {
-            position.x += Random.Range(-1f, 1f);
-            position.z += Random.Range(-1f, 1f);
+            position.x += Random.Range(-3.5f, 3f);
+            position.z += Random.Range(-3.5f, 3.5f);
          
 
             Instantiate(_objectToSpawn[i], position, Quaternion.identity);
