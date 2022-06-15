@@ -144,7 +144,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580033714858398460}
-  m_LocalRotation: {x: -4.440892e-16, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 8975306235389324587}
   - component: {fileID: 7734517349503811542}
   - component: {fileID: 9101201890020727323}
+  - component: {fileID: 4465190150017641482}
   m_Layer: 0
   m_Name: FDecor
   m_TagString: Untagged
@@ -256,6 +257,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4465190150017641482
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655869596953702762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7750190484518235157, guid: ed21d351754fc44968c729e705d13273, type: 3}
 --- !u!1 &5330836993744535633
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +401,14 @@ PrefabInstance:
     - target: {fileID: 1943102202154438738, guid: 790e16ca5975f4898951a9fd8554c568, type: 3}
       propertyPath: m_Name
       value: FGLights
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753020300810939795, guid: 790e16ca5975f4898951a9fd8554c568, type: 3}
+      propertyPath: m_Intensity
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753020302120450568, guid: 790e16ca5975f4898951a9fd8554c568, type: 3}
+      propertyPath: m_Intensity
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7055665552680731413, guid: 790e16ca5975f4898951a9fd8554c568, type: 3}
       propertyPath: m_RootOrder
