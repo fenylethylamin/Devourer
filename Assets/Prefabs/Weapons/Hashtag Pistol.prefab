@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2066101098198989451}
   - component: {fileID: 2066101098198989449}
   - component: {fileID: 8987412324612889622}
+  - component: {fileID: 1474250670}
   m_Layer: 7
   m_Name: Hashtag Pistol
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066101098198989450}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.57699966, y: -0.58099985, z: 0.88600016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -91,8 +92,30 @@ MonoBehaviour:
   canAutoFire: 1
   fireRate: 1
   fireCounter: 0
-  firepoint: {fileID: 0}
-  gunName: 
+  firepoint: {fileID: 1150060516266071476}
+  gunName: HashtagGun
+--- !u!114 &1474250670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066101098198989450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfcc9ceea0bf419cb3bcaf548c2600d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveLayer: 1
+  saveTag: 1
+  saveName: 1
+  saveHideFlags: 1
+  saveActive: 1
+  saveChildren: 0
+  componentsToSave:
+  - {fileID: 2066101098198989451}
+  - {fileID: 2066101098198989449}
+  - {fileID: 8987412324612889622}
 --- !u!1 &2212774795374793377
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,6 +125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150060516266071476}
+  - component: {fileID: 1583174809}
   m_Layer: 7
   m_Name: Fire Point
   m_TagString: Untagged
@@ -117,12 +141,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2212774795374793377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: -0.13699996, z: 0.661}
+  m_LocalPosition: {x: -0.0042, y: -0.13699996, z: 0.661}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2066101098198989451}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583174809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212774795374793377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfcc9ceea0bf419cb3bcaf548c2600d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveLayer: 1
+  saveTag: 1
+  saveName: 1
+  saveHideFlags: 1
+  saveActive: 1
+  saveChildren: 0
+  componentsToSave:
+  - {fileID: 1150060516266071476}
 --- !u!1001 &632712185587959873
 PrefabInstance:
   m_ObjectHideFlags: 0
