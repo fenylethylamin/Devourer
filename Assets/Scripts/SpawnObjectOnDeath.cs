@@ -17,9 +17,9 @@ public class SpawnObjectOnDeath : MonoBehaviour
         {
             position.x += Random.Range(-3.5f, 3f);
             position.z += Random.Range(-3.5f, 3.5f);
-         
 
-            Instantiate(_objectToSpawn[i], position, Quaternion.Euler(Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f)));
+
+            Instantiate(_objectToSpawn[i], position, Quaternion.identity);
         }
 
         _deadEmoji.transform.position = transform.position;
