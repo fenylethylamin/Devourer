@@ -199,7 +199,7 @@ PrefabInstance:
       objectReference: {fileID: 7471922626326599650}
     - target: {fileID: 5911815196222025903, guid: 38a1f432dd73b4a3c80ac18524fd1244, type: 3}
       propertyPath: currentHealth
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5911815196222025905, guid: 38a1f432dd73b4a3c80ac18524fd1244, type: 3}
       propertyPath: m_IsTrigger
