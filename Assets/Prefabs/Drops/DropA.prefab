@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6605554758163100688}
   m_Layer: 8
   m_Name: DropA
-  m_TagString: Untagged
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,8 +63,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8560661, y: 0.87280166, z: 0.19363423}
-  m_Center: {x: 0.026090946, y: 0.33936626, z: 0.01720757}
+  m_Size: {x: 0.8560661, y: 0.87280166, z: 0.23540328}
+  m_Center: {x: 0.026090948, y: 0.33936626, z: -0.0036769428}
 --- !u!114 &-897417569169286266
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: -6182379139077558345}
   - component: {fileID: -6507493249876349521}
   - component: {fileID: 7058698081637653988}
+  - component: {fileID: 5309582208160130096}
   m_Layer: 0
   m_Name: DropP
-  m_TagString: Untagged
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,6 +150,22 @@ MonoBehaviour:
   innerSpotAngle: 96.3
   outerSpotAngle: 102.87
   range: 1
+--- !u!54 &5309582208160130096
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829618586426207807}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &585577401966839172
 PrefabInstance:
   m_ObjectHideFlags: 0

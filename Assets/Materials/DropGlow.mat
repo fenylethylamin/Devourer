@@ -115,7 +115,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_57e15a661a20474ea3bec8d2e9c2ba6a: 3
+    - Vector1_57e15a661a20474ea3bec8d2e9c2ba6a: 1.5
     - Vector1_9cb8bd1aa2be43ec935fe037cae223ae: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0

@@ -2101,7 +2101,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 170
+        y: 172.22845
         width: 160
         height: 30
     - id: 4
@@ -2157,7 +2157,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 220
+        y: 222.22845
         width: 160
         height: 30
     - id: 5
@@ -2244,7 +2244,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Devourer finale 006)
+        value: '
+
+          AudioWait(Devourer finale 006)'
         type: 0
         typeString: 
       conversationID: 4
@@ -2475,7 +2477,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response A1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2650,7 +2652,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response A2)
         type: 0
         typeString: 
       conversationID: 4
@@ -2705,7 +2707,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response B1 001.)
         type: 0
         typeString: 
       conversationID: 4
@@ -2756,12 +2758,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' I need to bring even more humans here to spread my word. I have
-          the power to correct the human''s flawed nature!'
+        value: '  need to bring even more humans here to spread my word. I have the
+          power to correct the human''s flawed nature!'
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response B1 002)
         type: 0
         typeString: 
       conversationID: 4
@@ -2935,7 +2937,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response C1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2987,11 +2989,11 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: 'Ha! It even made a pun! I managed to convert you into a semi-intelligent
-          being!  But you, my little human experiment, might have a point. '
+          being! But you, my little human experiment, might have a point. '
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response C2 Ha)
         type: 0
         typeString: 
       conversationID: 4
@@ -3048,7 +3050,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response C2 English)
         type: 0
         typeString: 
       conversationID: 4
@@ -3165,7 +3167,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response C1 SuchA)
         type: 0
         typeString: 
       conversationID: 4
@@ -3189,7 +3191,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 703.93866
+        x: 702.53284
         y: 859.1417
         width: 160
         height: 30
@@ -3277,7 +3279,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response D1 As)
         type: 0
         typeString: 
       conversationID: 4
@@ -3332,7 +3334,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response D1 YouArAre)
         type: 0
         typeString: 
       conversationID: 4
@@ -3390,7 +3392,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response D1 NowGo)
         type: 0
         typeString: 
       conversationID: 4
@@ -3445,7 +3447,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response D1 IBet)
         type: 0
         typeString: 
       conversationID: 4
@@ -3500,7 +3502,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Devourer finale response D1 005)
         type: 0
         typeString: 
       conversationID: 4
@@ -3794,8 +3796,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 364.49738}
-    canvasZoom: 0.4972401
+    canvasScrollPosition: {x: 0, y: 326.08752}
+    canvasZoom: 0.699886
   - id: 5
     fields:
     - title: Title
