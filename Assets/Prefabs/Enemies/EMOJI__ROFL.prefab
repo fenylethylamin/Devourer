@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chasing: 0
-  chasingspeed: 5
+  chasingspeed: 8
   normalspeed: 1
   Player: {fileID: 0}
   distanceToChase: 24

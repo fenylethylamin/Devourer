@@ -1397,8 +1397,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 109.004364, y: 66.65306}
-    canvasZoom: 0.63815147
+    canvasScrollPosition: {x: 0, y: 44.034344}
+    canvasZoom: 0.4326754
   - id: 3
     fields:
     - title: Title
@@ -2619,8 +2619,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 511.825
+        x: 446.21155
+        y: 510.5224
         width: 160
         height: 30
     - id: 13
@@ -2646,9 +2646,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Such a disappointment that you have chosen to die.
-
-          [END]'
+        value: Such a disappointment that you have chosen to die.
         type: 0
         typeString: 
       - title: Sequence
@@ -2676,8 +2674,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 216.25513
-        y: 558.64124
+        x: 212.34744
+        y: 658.93854
         width: 160
         height: 30
     - id: 14
@@ -2731,8 +2729,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 561.825
+        x: 434.48853
+        y: 582.666
         width: 160
         height: 30
     - id: 15
@@ -2793,8 +2791,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 611.825
+        x: 446.21155
+        y: 649.59937
         width: 160
         height: 30
     - id: 16
@@ -2849,8 +2847,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 661.825
+        x: 446.21155
+        y: 699.59937
         width: 160
         height: 30
     - id: 17
@@ -2906,8 +2904,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 658.3668
-        y: 655.95374
+        x: 662.27454
+        y: 693.7281
         width: 160
         height: 30
     - id: 18
@@ -2933,7 +2931,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Such a disappointment that you have chosen to die.  [END]
+        value: 'Such a disappointment that you have chosen to die. '
         type: 0
         typeString: 
       - title: Sequence
@@ -2961,8 +2959,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 711.825
+        x: 446.21155
+        y: 748.29675
         width: 160
         height: 30
     - id: 19
@@ -3017,8 +3015,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 703.93866
-        y: 710.88055
+        x: 707.8463
+        y: 748.6549
         width: 160
         height: 30
     - id: 20
@@ -3080,8 +3078,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 703.93866
-        y: 760.88055
+        x: 707.8463
+        y: 798.6549
         width: 160
         height: 30
     - id: 21
@@ -3136,8 +3134,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 703.93866
-        y: 810.88055
+        x: 707.8463
+        y: 848.6549
         width: 160
         height: 30
     - id: 22
@@ -3163,7 +3161,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Such a disappointment that you have chosen to die.  [END]
+        value: 'Such a disappointment that you have chosen to die. '
         type: 0
         typeString: 
       - title: Sequence
@@ -3191,8 +3189,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 702.53284
-        y: 859.1417
+        x: 706.44055
+        y: 896.9161
         width: 160
         height: 30
     - id: 23
@@ -3247,8 +3245,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 915.3329
-        y: 815.3212
+        x: 919.2406
+        y: 853.0956
         width: 160
         height: 30
     - id: 24
@@ -3303,8 +3301,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 915.3329
-        y: 865.3212
+        x: 919.2406
+        y: 903.0956
         width: 160
         height: 30
     - id: 25
@@ -3358,8 +3356,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 915.3329
-        y: 915.3212
+        x: 919.2406
+        y: 953.0956
         width: 160
         height: 30
     - id: 26
@@ -3416,8 +3414,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 913.6277
-        y: 965.3212
+        x: 917.5354
+        y: 1003.0956
         width: 160
         height: 30
     - id: 27
@@ -3471,8 +3469,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 918.7608
-        y: 1032.4318
+        x: 922.66846
+        y: 1070.2058
         width: 160
         height: 30
     - id: 28
@@ -3526,8 +3524,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 921.0632
-        y: 1099.6537
+        x: 924.9708
+        y: 1137.4277
         width: 160
         height: 30
     - id: 29
@@ -3632,8 +3630,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 216.25513
-        y: 608.64124
+        x: 212.34744
+        y: 708.93854
         width: 160
         height: 30
     - id: 31
@@ -3685,8 +3683,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 442.30386
-        y: 761.825
+        x: 446.21155
+        y: 799.59937
         width: 160
         height: 30
     - id: 32
@@ -3738,8 +3736,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 703.93866
-        y: 909.1417
+        x: 707.8463
+        y: 946.9161
         width: 160
         height: 30
     - id: 33
@@ -3791,13 +3789,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 921.0632
-        y: 1149.6537
+        x: 924.9708
+        y: 1187.4277
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 631.77844, y: 369.06027}
-    canvasZoom: 0.5603885
+    canvasScrollPosition: {x: 0, y: 167.7616}
+    canvasZoom: 0.76771694
   - id: 5
     fields:
     - title: Title

@@ -103,7 +103,7 @@ MonoBehaviour:
   impactEffect: {fileID: 2562735195964496394, guid: 85bc69dd33f3f4601a393006e031fc09, type: 3}
   damageEnemy: 1
   damagePlayer: 0
-  damage: 4
+  damage: 25
 --- !u!65 &4879804605287491165
 BoxCollider:
   m_ObjectHideFlags: 0
