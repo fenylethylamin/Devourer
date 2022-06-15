@@ -214,6 +214,13 @@ public class EnemyController : MonoBehaviour
         chasing = false;
 
     }
+
+    public void Chase()
+    {
+ 
+
+        chasing = true;
+    }
 }
 
 
