@@ -656,5 +656,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5d0db4eb742427abc3ba502e273a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 25
+  currentHealth: 40
   theEC: {fileID: 557240742006725860}

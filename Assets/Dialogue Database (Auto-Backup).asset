@@ -2507,8 +2507,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 216.25513
-        y: 458.64124
+        x: 214.95255
+        y: 459.94373
         width: 160
         height: 30
     - id: 11
@@ -2705,7 +2705,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Devourer finale response B1 001.)
+        value: AudioWait(Devourer finale response B1 Lookat)
         type: 0
         typeString: 
       conversationID: 4
@@ -2729,8 +2729,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 434.48853
-        y: 582.666
+        x: 450.11926
+        y: 580.06085
         width: 160
         height: 30
     - id: 15
@@ -2756,12 +2756,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '  need to bring even more humans here to spread my word. I have the
-          power to correct the human''s flawed nature!'
+        value: I need to bring even more humans here to spread my word. I have the
+          power to correct the human's flawed nature!
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Devourer finale response B1 002)
+        value: AudioWait(Devourer finale response B1 INeedTo)
         type: 0
         typeString: 
       conversationID: 4
@@ -2935,7 +2935,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AudioWait(Devourer finale response C1)
+        value: AudioWait(Devourer finale response C1 SuchA)
         type: 0
         typeString: 
       conversationID: 4
@@ -3794,8 +3794,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 167.7616}
-    canvasZoom: 0.76771694
+    canvasScrollPosition: {x: 0, y: 258.52673}
+    canvasZoom: 0.39037204
   - id: 5
     fields:
     - title: Title
