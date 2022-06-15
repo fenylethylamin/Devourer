@@ -24,6 +24,9 @@ public class MainMenu : MonoBehaviour
 
    void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         if (PlayerPrefs.HasKey("CurrentLevel"))
         {
             if (PlayerPrefs.GetString("CurrentLevel") == "")
