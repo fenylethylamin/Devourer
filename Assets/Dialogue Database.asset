@@ -736,7 +736,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Misunderstanding.
+        value: Misunderstanding
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -764,7 +764,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 420.61475
+        x: 419.04767
         y: 499.01788
         width: 160
         height: 30
@@ -1397,8 +1397,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 8.574936, y: 3.0302334}
-    canvasZoom: 0.47782084
+    canvasScrollPosition: {x: 109.004364, y: 66.65306}
+    canvasZoom: 0.63815147
   - id: 3
     fields:
     - title: Title
