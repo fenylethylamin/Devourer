@@ -15,6 +15,9 @@ public class LetterButton : MonoBehaviour
 
     public void ButtonPress()
     {
+        if (!PlayerController.instance.HasLetter(_letter))
+            return;
+
         PlayerController.instance.UseLetter(_letter);
 
         GameManager.instance.AddLetterToCurrentPuzzle(_letter);

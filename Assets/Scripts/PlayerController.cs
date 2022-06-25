@@ -286,4 +286,9 @@ public void PinToObject(Transform obj)
     {
         _playerInventory.UseLetter(letter);
     }
+
+    public bool HasLetter(char letter)
+    {
+        return _playerInventory.HaveLetter(letter);
+    }
 }

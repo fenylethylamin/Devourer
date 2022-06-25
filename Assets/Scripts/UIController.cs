@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
@@ -20,6 +21,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private float videoLength = 46f;
     [SerializeField] private GameObject skipButton;
     [SerializeField] private GameObject[] objectsToDisable;
+    [SerializeField] private GameObject cameraObject;
     private UnityEngine.Video.VideoPlayer videoPlayer;
     private float videoTimeElapsed = 0f;
     private bool isVideoPlaying = false;
@@ -65,6 +67,8 @@ public class UIController : MonoBehaviour
         {
             GO.SetActive(false);
         }
+
+        cameraObject.GetComponent<Volume>().enabled = false;
     }
 
     public void SkipVideo()
